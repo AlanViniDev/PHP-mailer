@@ -19,8 +19,6 @@ class EnviarEmail
     public function EnviarEmail () 
     {
         $Enviar = new PHPMailer(true);
-
-        $email = new PHPMailer(true);
         
         $Enviar->SMTPDebug = 2;               
         $Enviar->isSMTP();
