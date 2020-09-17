@@ -33,7 +33,7 @@ class EnviarEmail
         $Enviar->Subject = "";
         $Enviar->Body = "de: {$this->Nome}\nemail:{$this->Email}\nmenssagem: {$this->menssagem}";
         
-        if($email->send())
+        if($Enviar->send())
         {
             echo "Email enviado com sucesso";
         }else
