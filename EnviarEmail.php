@@ -17,7 +17,7 @@ class EnviarEmail
     //Atributos
     public $Nome = "localhost";
     public $Email = "localhost@gmail.com";
-    public $Menssagem = "Uma menssagem enviado de localhost";
+    public $Menssagem = "Uma menssagem enviada de localhost";
     
     /*Função responsavel por enviar email*/
     public function EnviarEmail () 
